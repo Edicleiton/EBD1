@@ -3,11 +3,12 @@
 using namespace std;
 
 int calcularMedia(int v[], int tam);
+
 int soma(int v[], int tam);
 
 int main(){
 
-    int v[] = {5, 10, 15, 20};
+    int v[] = {100};
     int tam = sizeof(v)/sizeof(v[0]);
 
     int resultado = calcularMedia(v, tam);
@@ -28,5 +29,5 @@ int soma(int v[], int tam){
 }
 int calcularMedia(int v[], int tam){
     int r = soma(v, tam) / tam;
-    return r;
+   return r;
 }
