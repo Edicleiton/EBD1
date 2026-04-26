@@ -4,7 +4,10 @@ using namespace std;
 
 int main(){
 
-    cout << (450 / 10) % 10;
+    for(int i=0; i<4;i++){
+
+
+    }
 
     return 0;
 }
