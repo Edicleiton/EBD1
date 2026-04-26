@@ -6,7 +6,7 @@ void sort(int V[]);
 
 int main(){
 
-    int v[] = {3,9,1,0,7};
+    int v[] = {7,6,5,4,3,2,1};
 
     sort(v);
 
